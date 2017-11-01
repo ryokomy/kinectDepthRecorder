@@ -1,0 +1,2 @@
+addons/ofxMultiKinectV2
+addons/ofxTurboJpeg

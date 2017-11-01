@@ -1,0 +1,6 @@
+[submodule "addons/ofxMultiKinectV2"]
+	path = addons/ofxMultiKinectV2
+	url = https://github.com/hanasaan/ofxMultiKinectV2.git
+[submodule "addons/ofxTurboJpeg"]
+	path = addons/ofxTurboJpeg
+	url = https://github.com/armadillu/ofxTurboJpeg.git
