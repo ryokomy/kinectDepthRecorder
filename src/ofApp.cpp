@@ -4,6 +4,8 @@
 void ofApp::setup(){
     ofSetVerticalSync(true);
     ofSetFrameRate(30);
+    ofHideCursor();
+    CGDisplayHideCursor(NULL);
     
     // settings
     ofxJson json;
@@ -26,6 +28,7 @@ void ofApp::setup(){
     mesh.setMode(OF_PRIMITIVE_POINTS);
     
     ecam.setAutoDistance(false);
+    ecam.rotate(180, 0, 1, 0);
     ecam.setDistance(200);
     
     // dump ir params
@@ -104,7 +107,8 @@ void ofApp::draw(){
     }
     else{
         ofPushMatrix();
-        ofScale(scale, scale);
+        ofTranslate(512*scale, 0);
+        ofScale(-scale, scale);
         depthShader.begin();
         depthTex.draw(0, 0);
         depthShader.end();
