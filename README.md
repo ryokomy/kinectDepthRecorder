@@ -4,7 +4,7 @@ record kinectV2 depth images (16bit tif image) and can play them later using htt
 ## OS
 mac
 
-## just use this app
+## how to use (just use this app)
 ```
 git clone https://github.com/RyoheiKomiyama/kinectDepthRecorder.git
 ```
