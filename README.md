@@ -4,7 +4,7 @@ record kinectV2 depth images (16bit tif image) and can play them later using htt
 ## OS
 mac
 
-## how to use (just use this app)
+## How to use (just use this app)
 ```
 git clone https://github.com/RyoheiKomiyama/kinectDepthRecorder.git
 ```
@@ -15,5 +15,5 @@ record 16bit depth images. images are saved in bin/out/timestamp directory. you 
 - 'p' key
 togle view: depth image <-> pointcloud
 
-## develop
+## Develop
 this code is developed using openframeworks.
